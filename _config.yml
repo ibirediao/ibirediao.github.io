@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Diao
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Diao
 language: zh-CN
 timezone: ''
 
@@ -102,5 +102,13 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+  type: leancloud_counter_security_sync
   repo: git@github.com:ibirediao/ibirediao.github.io.git
+
+leancloud_counter_security:
+  enable_sync: true
+  app_id: 
+  app_key: 
+  server_url: https://leancloud.cn
+  username: 
+  password: 
